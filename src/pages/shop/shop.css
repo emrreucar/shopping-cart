@@ -5,14 +5,14 @@ body{
 .shopTitle{
     margin-top: 100px;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .products{
     width: 100%;
     height: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(400px ,1fr));
     place-items: center;
 }
 
